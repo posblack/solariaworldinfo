@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">세력</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">세계의 서막</a></h1>
+        <nav>
+            <ul>
+                <li class="dropdown">
+                    <a href="#">세계관</a>
+                    <ul class="dropdown-content">
+                        <li><a href="worldview.html?topic=nations">국가</a></li>
+                        <li><a href="worldview.html?topic=religion">종교관</a></li>
+                        <li><a href="worldview.html?topic=races">종족</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">세력</a>
+                    <ul class="dropdown-content">
+                        <li><a href="factions.html?group=party">모험가 그룹</a></li>
+                        <li><a href="factions.html?group=underworld">마계</a></li>
+                        <li><a href="factions.html?group=heroes">영웅</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="content-section">
+            <!-- 자바스크립트가 이 곳에 내용을 채워줍니다. -->
+            <h2 id="content-title">내용을 불러오는 중...</h2>
+            <div id="content-body">
+                <p>페이지를 로드하고 있습니다. 잠시만 기다려주세요.</p>
+            </div>
+        </section>
+
+        <section id="character-section" class="hidden">
+            <h3>주요 인물</h3>
+            <div class="character-grid">
+                <!-- 캐릭터 카드 예시. 이 구조를 복사해서 인물을 추가하세요. -->
+                <div class="character-card">
+                    <img src="https://placehold.co/300x400/333/eee?text=Character+Image" alt="캐릭터 이미지">
+                    <h4>캐릭터 이름</h4>
+                    <p>캐릭터에 대한 간단한 설명. 역할, 성격 등.</p>
+                </div>
+                <div class="character-card">
+                    <img src="https://placehold.co/300x400/333/eee?text=Character+Image" alt="캐릭터 이미지">
+                    <h4>캐릭터 이름 2</h4>
+                    <p>두 번째 캐릭터에 대한 간단한 설명입니다.</p>
+                </div>
+                <!-- 캐릭터 추가 -->
+            </div>
+        </section>
+
+        <section id="relations-section" class="hidden">
+            <h3>세력 관계도</h3>
+            <div class="relations-chart">
+                <!--
+                    이곳에 관계도를 넣을 수 있습니다.
+                    이미지로 넣거나, Mermaid.js 같은 라이브러리를 사용하면 텍스트로 관계도를 그릴 수 있습니다.
+                    예:
+                    <script type="module">
+                        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+                        mermaid.initialize({ startOnLoad: true });
+                    </script>
+                    <pre class="mermaid">
+                        graph TD;
+                            A[세력1] -->
+                |적대| B(세력2);
+                A -->|우호| C{세력3};
+                B -->|불신| C;
+                </pre>
+                -->
+                <img src="https://placehold.co/800x500/555/eee?text=Relationship+Chart" alt="관계도 이미지" style="width:100%; height:auto;">
+                <p>이곳에 세력 간의 관계에 대한 부가 설명을 적습니다.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 [Your Name]. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
